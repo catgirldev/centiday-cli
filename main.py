@@ -1,4 +1,4 @@
-""" XXXXXXXX  CENTADAY BOT !!!   by Avery   XXXXXXXX
+""" XXXXXXXX  Centiday BOT !!!   by Avery   XXXXXXXX
 
 HERE are some notes and comments : 
 UmU
@@ -8,7 +8,7 @@ OwO
 UwU
 
 seconds in a day: 86400
-a centaday is a day divided by 100 
+a centiday is a day divided by 100 
 86400 seconds divided by 100 is 864.0 seconds
 
 HH MM SS of 
@@ -16,9 +16,9 @@ HH MM SS of
 """
 print("hello!")
 
-secondsInCentaday=86400/100
+secondsInCentiday=86400/100
 
-print("there are", secondsInCentaday, "seconds in a centaday!")
+print("there are", secondsInCentiday, "seconds in a centiday!")
 
 import time
 
@@ -63,11 +63,11 @@ minutesToSec=clockminutes*60
 totalSecondsToday=hoursToSec+minutesToSec+clockSeconds
 print("so far today there have been",totalSecondsToday,"seconds!")
 
-percentOfDay=totalSecondsToday/secondsInCentaday
+percentOfDay=totalSecondsToday/secondsInCentiday
 print("today is",percentOfDay,"percent over")
 
-currentCentaday=int(percentOfDay)
-print("the current centaday is",currentCentaday)
+currentCentiday=int(percentOfDay)
+print("the current Centiday is",currentCentiday)
 
 #  \/ \/ \/ \/     \/ \/ \/ \/
 #  /\ /\ /\ /\     /\ /\ /\ /\
